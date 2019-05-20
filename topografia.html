@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Project Page</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Our Custom CSS -->
+  <link rel="stylesheet" href="project.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Quicksand|Futura" rel="stylesheet">
+
+  <!-- Font Awesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  <div class="wrapper">
+
+    <!-- Sidebar -->
+    <nav id="sidebar">
+
+      <div class="sidebar-header">
+        <h3>Spybee</h3>
+      </div>
+
+      <ul class="list-unstyled components">
+        <div id="userPhoto">
+          <img src="images/drone.png" alt="userPhoto" class="userPhoto">
+        </div>
+
+
+        <p>Cliente</p>
+        <li>
+          <a href="#projectSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Proyectos</a>
+          <ul class="collapse list-unstyled" id="projectSubmenu">
+            <li>
+              <a href="#">Proyectos 1</a>
+            </li>
+            <li>
+              <a href="#">Proyecto 2</a>
+            </li>
+            <li>
+              <a href="#">Proyecto 3</a>
+            </li>
+            <li>
+              <a href="project-index.html">Ver todos</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="informacion.html">Información</a>
+        </li>
+        <li  class="active">
+          <a href="#">Topografía</a>
+        </li>
+        <li>
+          <a href="tour360.html">Tour 360º</a>
+        </li>
+        <li>
+          <a href="descargas.html">Descargas</a>
+        </li>
+      </ul>
+
+      <ul class="list-unstyled CTAs">
+        <li>
+          <a href="#" class="logout">Salir</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <!-- Page Content -->
+
+    <!-- Navegador superior -->
+
+    <div id="content">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container-fluid">
+
+          <button type="button" id="sidebarCollapse" class="btn btn-warning menu-button">
+            <i class="fas fa-align-left"></i>
+            <span>Menú</span>
+          </button>
+
+        </div>
+      </nav>
+
+      <!-- Listado de proyectos -->
+
+      <div class="topoPage">
+        <h1 class="tituloPagina">Topografía</h1>
+
+        <div class="card-body">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#meses2019" role="button" aria-expanded="false" aria-controls="collapseExample">2019</button>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#meses2018" role="button" aria-expanded="false" aria-controls="collapseExample">2018</button>
+
+          <div class="collapse" id="meses2019">
+            <div class="dateToggle">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#enero2019" role="button" aria-expanded="false aria-controls="collapseExample">Enero</button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#" role="button" aria-expanded="false" aria-controls="collapseExample">Febrero</button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#" role="button" aria-expanded="false" aria-controls="collapseExample">Marzo</button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#" role="button" aria-expanded="false" aria-controls="collapseExample">Abril</button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#" role="button" aria-expanded="false" aria-controls="collapseExample">Mayo</button>
+            </div>
+          </div>
+
+          <div class="collapse" id="enero2019">
+            <div class="dateToggle">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#15enero2019" role="button" aria-expanded="false" aria-controls="collapseExample">15</button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#" role="button" aria-expanded="false" aria-controls="collapseExample">30</button>
+            </div>
+          </div>
+
+          <div class="collapse topoData" id="15enero2019">
+            <div class="sketchfab-embed-wrapper"><iframe width="100%" height="480" src="https://sketchfab.com/models/6dbc39d298aa48dc8c7ffd09f192a72c/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

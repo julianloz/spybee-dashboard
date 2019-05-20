@@ -1,0 +1,127 @@
+/* IDs */
+
+#topBanner {
+  background-color: #eaeaea;
+}
+
+#row1 {
+  background-color: white;
+  position: relative;
+  bottom: 75px;
+  width: 75%;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 0px #e4e4e4;
+}
+
+#row2 {
+
+  position: relative;
+  margin: auto;
+}
+
+#companies {
+  background-color: #ededed;
+  padding: 7% 0;
+  color: grey;
+}
+
+/* Classes */
+
+.topHeader {
+  font-family: 'Futura', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.services {
+  padding: 2% 4%;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 20%;
+}
+
+.drone {
+  width: 60%;
+  display: inline-block;
+
+}
+
+.contact {
+  background-image: image("https://www.spybee.com.co/wp-content/uploads/2018/08/guatape-1920x1080.jpg");
+  background-color: #cccccc;
+  padding: 2rem;
+  padding-bottom: 3.5rem;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.header-btn {
+  margin: 5% 1%;
+}
+
+.form {
+  background-color: white;
+  padding: 5%;
+  border-radius: 5px;
+  box-shadow: 25px 25px 0px 0px #d6a921;
+}
+
+.center {
+  text-align: center;
+  padding-top: 13%;
+}
+
+.center1 {
+  text-align: center;
+}
+
+.logo {
+  width: 60%;
+}
+
+.icon1 {
+  color: #ffc107;
+  margin: 20px auto 25px;
+}
+
+.icon1:hover {
+  color: #f59600;
+}
+
+.card-service {
+  margin-bottom: 25px;
+}
+
+
+/* Elements */
+
+body {
+  font-family: Quicksand;
+}
+
+/* Media */
+
+@media (max-width: 1000px) {
+  .drone {
+    width: 40%;
+  }
+
+  .mobile {
+    display: inline-block;
+    text-align: center;
+  }
+}
